@@ -191,28 +191,17 @@ public class TurtleSoup   {
         for(int i = 1; i <= 30; i++)
         {
             if (i<=10) {
-                turtle.color(PenColor.RED);
-                turtle.forward(i*10);
-                turtle.turn(144);
-                turtle.forward(30);
-                
-            }
-            if (i<=20 && i>10) {
+                turtle.color(PenColor.RED);  
+            } else if (10<=i && 20<=i) {
                 turtle.color(PenColor.BLUE);
-                turtle.forward(i*10);
-                turtle.turn(144);
-                turtle.forward(30);
-                
-            }
-            if (i<=30 && i>20) {
+            } else {
                 turtle.color(PenColor.GREEN);
-                turtle.forward(i*10);
-                turtle.turn(144);
-                turtle.forward(30);
-                
             }
-
             
+            turtle.forward(i*10);
+            turtle.turn(144);
+            turtle.forward(30);
+  
         }
         
     }
