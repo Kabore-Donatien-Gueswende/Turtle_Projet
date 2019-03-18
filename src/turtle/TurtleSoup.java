@@ -138,7 +138,7 @@ public class TurtleSoup {
             return degre;
 
         } else {
-            throw new RuntimeException("error degree");
+            return degre = degre +360;
         }
 
     }
