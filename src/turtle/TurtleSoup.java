@@ -82,7 +82,7 @@ public class TurtleSoup {
      */
     public static void drawRegularPolygon(Turtle turtle, int sides, int sideLength) {
 
-        // dessine un polygone regulier
+        // dessine un polygone regulier à partir du nombre de cotés et de la longueur des segements
         for (int i = 1; i <= sides; i++) {
             turtle.forward(sideLength);
             turtle.turn(TurtleSoup.calculateRegularPolygonAngle(sides));
