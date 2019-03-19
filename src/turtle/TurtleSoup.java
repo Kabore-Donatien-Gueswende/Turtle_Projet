@@ -21,12 +21,10 @@ public class TurtleSoup {
      *            length of each side
      */
     public static void drawSquare(Turtle turtle, int sideLength) {
-        // throw new RuntimeException("implement me!");
 
         for (int i = 1; i <= 4; i++) {
             turtle.forward(sideLength);
             turtle.turn(90.0);
-            turtle.forward(sideLength);
         }
 
     }
@@ -44,7 +42,7 @@ public class TurtleSoup {
     public static double calculateRegularPolygonAngle(int sides) {
 
         // Degrees interieur des angles d'un polygone regulier
-        return (double) 360 / sides;
+        return (double) 360/sides;
 
     }
 
@@ -64,7 +62,8 @@ public class TurtleSoup {
 
         // le nombre de coté d'un polygone regulier sachant la valeur de l'angle
         // interieur
-        return (int) (Math.round(360 / angle));
+        return (int) Math.round(360 /(180 - angle));
+    
     }
 
     /**
@@ -86,8 +85,7 @@ public class TurtleSoup {
         for (int i = 1; i <= sides; i++) {
             turtle.forward(sideLength);
             turtle.turn(TurtleSoup.calculateRegularPolygonAngle(sides));
-            turtle.forward(sideLength);
-        }
+        } 
 
     }
 
@@ -140,7 +138,7 @@ public class TurtleSoup {
         } else {
             return degre = degre +360;
         }
-
+        
     }
 
     /**
@@ -228,8 +226,10 @@ public class TurtleSoup {
      */
     public static void main(String args[]) {
         DrawableTurtle turtle = new DrawableTurtle();
+      // drawSquare(turtle, 50);
+        drawRegularPolygon(turtle, 7, 40);
 
-        drawPersonalArt(turtle);
+        //drawPersonalArt(turtle);
         turtle.draw();
 
     }

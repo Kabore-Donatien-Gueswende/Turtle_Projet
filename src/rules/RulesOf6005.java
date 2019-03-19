@@ -39,7 +39,6 @@ public class RulesOf6005 {
         
         // TODO: Fill in this method, then remove the exception
         
-       // throw new RuntimeException("implement me!");
         if (writtenByYourself) {
             return true;
         }else if (implementationRequired) {
@@ -51,10 +50,6 @@ public class RulesOf6005 {
         else {
             return false;
         }
-
- 
-        
-
         
     }
     
