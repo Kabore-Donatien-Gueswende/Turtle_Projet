@@ -164,7 +164,7 @@ Ce qui donne cet effet graphiquement : voir "image 7"
 
 # Conclusion
 
-Nous avons au cours de ce projet appris à tester notre code avec JUnit (assertEquals et assertFalse/True) ainsi nous pouvions ainsi créer nos propres structures de tests ou controles avec c’est deux méthodes pour élargir l’angle test de nos objets ou méthodes.
+Nous avons au cours de ce projet appris à tester notre code avec JUnit (assertEquals(comparez deux valeurs) et assertFalse/True (testez les valeurs booléans)) ainsi nous pouvions ainsi créer nos propres structures de tests ou controles avec c’est deux méthodes pour élargir l’angle de test de nos objets ou méthodes.
 
 
 
