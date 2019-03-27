@@ -18,7 +18,11 @@ a) Suivant les conditions indiquées dans les commentaires nous parvenons à att
 avec JUnit (qui repond ainsi à la question "b)"): 
 
 
+
+
 ![alt text](https://github.com/Kabore-Donatien-Gueswende/project_ps0/blob/master/image/image%201.png)
+
+
 
 
 
@@ -40,10 +44,14 @@ avec JUnit (qui repond ainsi à la question "b)"):
     
     
   c) En effectuant un test sur la classe RulesOf6005Test , nous obtenons effectivement un test réussi : 
-  
-  
+
+
+
+
   ![alt text](https://github.com/Kabore-Donatien-Gueswende/project_ps0/blob/master/image/image%202.png)
-  
+
+
+
     
   Preuve que l’implémentation est bonne (ou du moins nous donne une certaine garantie).
     
