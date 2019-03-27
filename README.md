@@ -16,7 +16,11 @@ Installation de jdk1-8 et git 2.20 et Eclipse Version : Oxygen.3a Release (4.7.3
 
 a) Suivant les conditions indiquées dans les commentaires nous parvenons à atteindre notre objectif avec les lignes suivantes en effectuant le test
 avec JUnit (qui repond ainsi à la question "b)"): 
+
+
 ![alt text](https://github.com/Kabore-Donatien-Gueswende/project_ps0/blob/master/image/image%201.png)
+
+
 
       public static boolean mayUseCodeInAssignment(boolean writtenByYourself,
             boolean availableToOthers, boolean writtenAsCourseWork,
@@ -36,7 +40,10 @@ avec JUnit (qui repond ainsi à la question "b)"):
     
     
   c) En effectuant un test sur la classe RulesOf6005Test , nous obtenons effectivement un test réussi : 
+  
+  
   ![alt text](https://github.com/Kabore-Donatien-Gueswende/project_ps0/blob/master/image/image%202.png)
+  
     
   Preuve que l’implémentation est bonne (ou du moins nous donne une certaine garantie).
     
@@ -65,7 +72,9 @@ L’incrémentation de « i » allant jusqu’à 4 parce que un carré a quatre 
 
 une image correspond à l’effet de ce code :
 
+
 ![alt text](https://github.com/Kabore-Donatien-Gueswende/project_ps0/blob/master/image/image%203.png)
+
 
 # Problème V à X :
 
@@ -97,7 +106,10 @@ En nous inspirant de la methode drawsquare : nous rendons ainsi flexible la crea
     
 Ainsi dans la méthode « main » nous pouvons l’exécuter avec par exemple un polygone régulier de 7 cotés :
 
+
 ![alt text](https://github.com/Kabore-Donatien-Gueswende/project_ps0/blob/master/image/image%204.png)
+
+
 
 # Implémentation de la methode calculHeadingToPoint : 
 
@@ -118,7 +130,10 @@ Avec quelque recherche effectué sur la méthode math.ant2 java nous obtenons av
 
 Avec un test JUnit qui donne satisfaction : 
 
+
 ![alt text](https://github.com/Kabore-Donatien-Gueswende/project_ps0/blob/master/image/image%205.png)
+
+
 
 # Implémentation de la Méthode calculHeading
 
@@ -147,7 +162,11 @@ A partir de l’exemple fournie dans le projet et de quelque recherche, nous obt
 
 Qui nous donne satisfaction avec un succès du test : 
 
+
+
 ![alt text](https://github.com/Kabore-Donatien-Gueswende/project_ps0/blob/master/image/image%206.png)
+
+
 
 # Problème XI : Art personnel
 
@@ -171,7 +190,9 @@ Nous avons effectué quelque pour déterminer l’angle d’une étoile et l’a
 Nous agrandissons notre étoile à chaque boucle (turtle.forwar(i*30)) et changeons de couleur à tous les 10 tours.
 Ce qui donne cet effet graphiquement :
 
+
 ![alt text](https://github.com/Kabore-Donatien-Gueswende/project_ps0/blob/master/image/image%207.png)
+
 
 
 # Conclusion
