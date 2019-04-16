@@ -1,4 +1,4 @@
-# project_ps0
+# project Turtle
 projet d’étude master I : Architecture de logiciel
 
 # Le dossier image contient l'ensemble de nos captures necessaires à la compréhension de notre projet
