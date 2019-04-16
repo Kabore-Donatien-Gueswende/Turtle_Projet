@@ -1,9 +1,10 @@
+![alt text](https://github.com/Kabore-Donatien-Gueswende/project_ps0/blob/master/image/image%207.png)
 # project Turtle
-projet d’étude master I : Architecture de logiciel
 
 # Rapport du projet Turtle
 
-L’objectif du projet est d’apprendre à écrire un code sans bug (sans faille) grâce au test unitaire et aussi disposer d’un code maintenable, modulable et facile à comprendre d’apres notre compréhension du concept.
+L’objectif du projet est d’apprendre à écrire un code sans bug (sans faille) grâce au test unitaire et aussi disposer d’un code maintenable, modulable et facile à comprendre d’apres notre compréhension du concept avec un graphique qui illustre un peu une partie
+de l'objectif du projet
 
 # Partie I : 
 # Problème I : mise en place de l’environnement de développement
