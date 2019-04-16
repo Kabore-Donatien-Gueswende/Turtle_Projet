@@ -1,8 +1,6 @@
 # project Turtle
 projet d’étude master I : Architecture de logiciel
 
-# Le dossier image contient l'ensemble de nos captures necessaires à la compréhension de notre projet
-
 # Rapport du projet Turtle
 
 L’objectif du projet est d’apprendre à écrire un code sans bug (sans faille) grâce au test unitaire et aussi disposer d’un code maintenable, modulable et facile à comprendre d’apres notre compréhension du concept.
